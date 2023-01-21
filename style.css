@@ -1,0 +1,115 @@
+/* ****REGOLE GENERALI***** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+ul,ol,li,menu{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+/* HEADER */
+
+.up{
+    text-transform: uppercase;
+}
+.color-header{
+    background-color: #2c3e50;
+}
+header{
+    background-color: #2c3e50;
+}
+.display-media-mobile{
+    display: block;
+}
+.border-img{
+    border-radius: 10px;
+}
+/* MAIN SECTON GREEN */
+.back-ground{
+    background-color: #1abc9c;
+}
+.card{
+    background-color:#1abc9c;
+    border: none;
+}
+.t-center{
+    text-align: center;
+}
+.center-section-img{
+    text-align: center;
+}
+.whithe-tx{
+    color: var(--bs-white);
+}
+.card-title{
+    font-size: 2.0rem;
+    padding-top: 1.5rem;
+}
+.display-media-pc{
+    display: none;
+    padding: 2.2rem 0;
+}
+.gap-link-header{
+    gap: 1.4rem;
+}
+.job{
+    font-size: 1rem;
+    padding-bottom: 4.6250rem;
+}
+.img-avatar{
+    padding-top: 4.3750rem;
+}
+.title-img-pad-top{
+    padding-top: 3.1250rem;
+    font-size: 1.2500rem;
+}
+.title-link-header{
+    margin-bottom: 0;
+}
+.display-media-mobile{
+    margin: 2.2rem 1.5rem;
+    border: 1px solid rgb(83, 80, 80);
+    border-radius: 5px;
+}
+.about-my-color{
+    background-color: #1abc9c;
+    color: var(--bs-white);
+}
+.button-dowload{
+    border: 1px solid var(--bs-white);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.button-dowload-color{
+    background-color:#1abc9c;
+    border: none;
+    color: var(--bs-white);
+}
+@media screen and (min-width: 576px){
+
+    .display-media-mobile{
+        display: none;
+    }
+    .display-media-pc{
+        display: block;
+
+    }
+    .card-title{
+        font-size: 3.0rem;
+    }
+    .job{
+        font-size: 1.25rem;
+    }
+    .title-img-pad-top{
+        font-size: 2.5rem;
+        padding-top: 5.6250rem;
+    }
+    
+}
