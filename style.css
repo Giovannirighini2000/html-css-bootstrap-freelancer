@@ -92,6 +92,47 @@ header{
     border: none;
     color: var(--bs-white);
 }
+.img-section{
+    padding-bottom:5.875rem ;
+}
+.line-text::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: auto;
+    background: rgb(97, 99, 95);
+    margin-top: 0.8rem;
+}
+.line-text-big:after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: auto;
+    background: rgb(97, 99, 95);
+    margin-top: 8.75rem;
+}
+.button-send-margin{
+    padding-top: 0.8rem;
+}
+.button-send-color{
+    border: none;
+    background-color: #1abc9c;
+    border-radius: 0.5rem;
+    padding: 4px 8px;
+    color: var(--bs-white);
+}
+.footer-background{
+    background-color: #3a546d;
+}
+.footer-background-copyright{
+    background-color: #2c3e50;
+}
+.color-white-text{
+    color: var(--bs-white);
+}
+
 @media screen and (min-width: 576px){
 
     .display-media-mobile{
