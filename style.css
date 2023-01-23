@@ -31,6 +31,33 @@ header{
 .border-img{
     border-radius: 10px;
 }
+.icon-lines::before{
+ content: "";
+ display: block;
+ width: 40px;
+ height: 4px;
+ position: absolute;
+ background-color: currentColor;
+ top: 13px;
+ right: 55%;
+}
+.icon-lines::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    background-color: currentColor;
+    top: 13px;
+    left: 55%;
+   }
+.icon-lines{
+    position: relative;
+}
+.fa-star:before{
+    font-size:24px ;
+}
+
 /* MAIN SECTON GREEN */
 .back-ground{
     background-color: #1abc9c;
@@ -115,6 +142,7 @@ header{
 }
 .button-send-margin{
     padding-top: 0.8rem;
+    padding-bottom: 3.625rem;
 }
 .button-send-color{
     border: none;
@@ -123,6 +151,12 @@ header{
     padding: 4px 8px;
     color: var(--bs-white);
 }
+.line-text-stars{
+    height: 2px;
+    background-color: black;
+    width: 50px;
+}
+/* FOOTER */
 .footer-background{
     background-color: #3a546d;
 }
@@ -132,7 +166,38 @@ header{
 .color-white-text{
     color: var(--bs-white);
 }
+.pad-footer-frist-section{
+    padding-top: 3.375rem;
+    padding-bottom: 5rem ;
+}
+.pad-button-download{
+    padding-bottom: 3.75rem;
+}
+.border-circle-icon{
+    vertical-align: middle;
+    padding: 6px;
+    font-size: 1rem;
+    
+}
+.circle-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
 
+}
+.icon-gutter{
+    gap: 8px;
+}
+/* footer2 */
+.Copyright{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.around-gutter{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+/* MIN-WIDTH MEDIA QUERY */
 @media screen and (min-width: 576px){
 
     .display-media-mobile{
@@ -152,5 +217,31 @@ header{
         font-size: 2.5rem;
         padding-top: 5.6250rem;
     }
+    .pad-media-mobile{
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+    }
+    .around-gutter{
+        padding: 0rem;
+    }
+    .icon-lines::after{
+        width: 100px;
+    }
+    .icon-lines::before{
+        width: 100px;
+    }
     
 }
+@media (min-width: 1000px) { 
+    .pad-media-lg{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .icon-lines::after{
+        width: 140px;
+    }
+    .icon-lines::before{
+        width: 140px;
+    }
+    
+ }

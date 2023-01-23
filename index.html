@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/a077d2367d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- HEADER CONTENT -->
     <header>
         <div class="container color-header">
             <div class="row justify-content-between align-items-center">
@@ -20,7 +21,8 @@
                     </h4>
 
                 </div>
-                <div class="col-auto display-media-mobile whithe-tx">
+                <div class="col-auto row display-media-mobile whithe-tx">
+                   
                     <a href="#">
                         <i class="fa-sharp fa-solid fa-bars"></i>
                     </a>              
@@ -28,19 +30,19 @@
                 
                 <div class="col-auto display-media-pc whithe-tx">
                     <div class="d-flex flex-row gap-link-header">
-                            <div class="col">
+                            <div class="col-auto">
                             <a class="up" href="#">
                                 portafoglio
                             </a>
 
                         </div>
-                        <div class="col">
+                        <div class="col-auto">
                             <a class="up" href="#">
                                 about
                             </a>
 
                         </div>
-                        <div class="col">
+                        <div class="col-auto">
                             <a class="up" href="#">
                                 contact
                             </a>
@@ -59,13 +61,16 @@
 
     </header>
     <main>
+        <!-- SECTION HERO -->
         <section>
             <div class="back-ground">
                 <div class="container card align-items-center">
                     <img style="width: 14.0625rem; " class="img-avatar" src="./img/avatar.svg" class="" alt="...">
                     <div class="col-12">
                       <h5 class="card-title t-center up whithe-tx">start bootstrap</h5>
-                      <p class="card-text t-center whithe-tx"><i class="fa-solid fa-star"></i></p>
+                        <p class="card-text t-center whithe-tx icon-lines">
+                            <i class="fa-solid fa-star"></i>
+                        </p>
                       <div class="row">
                         <div class="t-center up whithe-tx job">
                             Graphic artist -web designer -illustrators
@@ -76,6 +81,7 @@
                   </div>
             </div>
         </section>
+        <!-- SECTION IMG -->
         <section class="img-section">
             <div class="container">
                 <div class="row d-flex flex-column">
@@ -85,7 +91,7 @@
                         </h2>
                     </div>
                     <div class="center-section-img">
-                        <p>
+                        <p class="icon-lines">
                             <i class="fa-solid fa-star"></i>
                         </p>
 
@@ -137,6 +143,7 @@
 
             </div>
         </section>
+            <!-- SECTION WE ABOUT -->
         <section class="about-my-color">
             <div class="container">
                 <div class="row d-flex flex-column">
@@ -146,14 +153,14 @@
                         </h2>
                     </div>
                     <div class="center-section-img">
-                        <p>
+                        <p class="icon-lines">
                             <i class="fa-solid fa-star"></i>
                         </p>
 
                     </div>
                     <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-md-6  col-lg-6">
+                        <div class="row justify-content-center pad-media-lg">
+                            <div class="col-10 col-md-5 col-offeset-md-1  col-lg-6">
                                 <p>
                                     Freelancer is a free bootstrap theme created by start
                                     Bootstrap.The download includes the complete 
@@ -163,7 +170,7 @@
                                 </p>
 
                             </div>
-                            <div class="col-12 col-md-6 col-lg-6">
+                            <div class="col-10 col-md-5 col-lg-6">
                                 <p>
                                     Where you're a student looking to showcase your
                                     work, a professional looking to attract clients, or a 
@@ -177,7 +184,7 @@
 
                     </div>
                     <div class="container">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center pad-button-download">
                             <div class="col-auto button-dowload align-self-center">
                                 <button class="button-dowload-color">
                                 <i class="fa-solid fa-download"></i>
@@ -197,16 +204,17 @@
             </div>
 
         </section>
+        <!--SECTION CONTACT ME -->
         <section class="contact-me">
             <div class="container">
-                <div class="row d-flex flex-column">
+                <div class="row d-flex flex-column pad-media-lg pad-media-mobile">
                     <div class="center-section-img">
                         <h2 class="up title-img-pad-top ">
                             Contantact me
                         </h2>
                     </div>
                     <div class="center-section-img">
-                        <p>
+                        <p class="icon-lines">
                             <i class="fa-solid fa-star"></i>
                         </p>
 
@@ -262,10 +270,11 @@
 
 
     </main>
+    <!-- FOOTER SECTION 1 -->
     <footer>
         <section class="footer-background">
             <div class="container">
-                <div class="row ">
+                <div class="row pad-footer-frist-section">
                     <div class="col-12 col-md-4 col-lg-4 contanier">
                         <div class="col d-flex flex-column align-items-center">
 
@@ -278,15 +287,39 @@
     
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4 contanier">
+                    <div class="col-12 col-md-4 col-lg-4 contanier around-gutter">
                         <div class="col d-flex flex-column align-items-center">
 
                             <p class="up color-white-text">
-                                location
+                                around the web
                             </p>
-                            <p class="color-white-text">
-                                2215 John Daniel Drive Clark, MO 54243
-                            </p>
+                            <div class="row color-white-text icon-gutter">
+                                <div class="col-auto circle-icon">
+                                    <a href="#" class="border-circle-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+    
+                                    </a>
+                                </div>
+                                <div class="col-auto circle-icon">
+                                   <a href="#" class="border-circle-icon">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                    
+                                    </a> 
+                                </div>
+                                <div class="col-auto circle-icon">
+                                    <a href="#" class="border-circle-icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    
+                                    </a>
+                                </div>
+                                <div class="col-auto circle-icon">
+                                   <a href="#" class="border-circle-icon">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    
+                                    </a> 
+                                </div>
+                                
+                            </div>
     
                         </div>
                     </div>
@@ -294,10 +327,13 @@
                         <div class="col d-flex flex-column align-items-center">
 
                             <p class="up color-white-text">
-                                location
+                                about Freelancer
                             </p>
                             <p class="color-white-text">
-                                2215 John Daniel Drive Clark, MO 54243
+                                Freelancer is a free to use, open source Bootstrap
+                                theme created by <span style="color: rgb(49, 131, 42);">
+                                    Start Bootstrap
+                                </span>.
                             </p>
     
                         </div>
@@ -306,8 +342,9 @@
                 </div>
 
             </div>
+            <!-- FOOTER SECTION 2 COPYRIGHT -->
             <section class="footer-background-copyright">
-                <div class="container">
+                <div class="container Copyright">
                     <div class="row justify-content-center">
                         <div class="col-auto ">
                             <p class="color-white-text">
