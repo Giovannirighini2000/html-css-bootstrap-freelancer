@@ -67,6 +67,9 @@ a{
 .navbar{
     --bs-navbar-padding-y: 1.5rem;
 }
+.color-bar{
+    color: rgb(163 161 161);
+}
 /* MAIN SECTON GREEN */
 .back-ground{
     background-color: #1abc9c;
